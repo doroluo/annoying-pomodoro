@@ -49,10 +49,14 @@ body {
 .countdown_clock {
     width: 400px;
     height: 400px;
-    font-size: 80px;
-    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Gaegu';
+    /* text-align: center; */
     margin: auto;
     border: dotted #ffffff;
+    color: #ffffff;
+    background-color: #ddb7ac;
     border-radius: 200px;
 }
 

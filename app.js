@@ -8,7 +8,7 @@ let interval;
 function set_time() {
     // need to reset time with every call
     time = Date.now();
-    tf_min = 0.1*60*1000;
+    tf_min = 25*60*1000;    // 25  minutes
     time = new Date(time + tf_min);
 }
 
@@ -30,7 +30,7 @@ function countdown() {
     var format_time = minutes + ':' + seconds;
     
     if (elapsed_time > 0) {
-        document.getElementById("timer").innerHTML = `<div class="countdown_clock"><h1>` + format_time + `</h1></div>`;
+        document.getElementById("timer").innerHTML = `<button class="countdown_clock">` + format_time + `</button>`;
     }
     else {
         document.getElementById("timer").innerHTML = `
