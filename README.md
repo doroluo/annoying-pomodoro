@@ -1,2 +1,3 @@
 # annoying-pomodoro
 a very annoying pomodoro......
+i hope you can hit the stop button fast enough :)
