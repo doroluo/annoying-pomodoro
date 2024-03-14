@@ -1,0 +1,65 @@
+body {
+    font-family: 'Gaegu';
+    background-color: #ddb7ac;
+    color:#5e503f;
+}
+
+.header {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.timer {
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.start_timer {
+    font-size: 100px;
+    font-family: 'Gaegu';
+    width: 400px;
+    height: 400px;
+    /* padding: 10px; */
+    /* margin-top: 80px; */
+    margin: auto;
+    border: dotted #cfb5a1;
+    border-radius: 200px;
+    color:#cb7373;
+    background-color: #fbeee4;
+}
+
+.stop_timer {
+    font-size: 100px;
+    font-family: 'Gaegu';
+    width: 400px;
+    height: 400px;
+    /* padding: 10px; */
+    /* margin-top: 80px; */
+    margin: auto;
+    border: dotted #cfb5a1;
+    border-radius: 200px;
+    color:#cb7373;
+    background-color: #8b0000;
+}
+
+.countdown_clock {
+    width: 400px;
+    height: 400px;
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+    border: dotted #ffffff;
+    border-radius: 200px;
+}
+
+
+/* fonts */
+.gaegu-regular {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
