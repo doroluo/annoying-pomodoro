@@ -15,7 +15,7 @@ let interval;
 function set_time() {
     // need to reset time with every call
     time = Date.now();
-    tf_min = 25*60*1000;    // 25  minutes
+    tf_min = 0.1*60*1000;    // 25  minutes
     time = new Date(time + tf_min);
 }
 
@@ -58,19 +58,16 @@ function countdown() {
 
 function stop_timer() {
     // stop the notifications
-
     annoying_notif_1.pause();
     annoying_notif_1.currentTime = 0;
     annoying_notif_2.pause();
     annoying_notif_2.currentTime = 0;
     annoying_notif_3.pause();
     annoying_notif_3.currentTime = 0;
-    // annoying_notif.src = annoying_notif.src;
+    // reset button to the start button
     document.getElementById("timer").innerHTML = `
     <button class="start_timer" onclick="start_timer()">
         <b>start</b>
     </button>
     `;
-
-    // clearInterval(interval);
 }
